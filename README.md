@@ -11,8 +11,12 @@ I choose a random number to assume the number of students is 50 , this can be in
 
 In this code I used the facial_emotion_recognition library which can be tricky to install (on windows).
 I provided useful links inside the code, but I will share them here as well.
+
+
 to download this library, see this video if you are using python 3.8 : https://www.youtube.com/watch?v=xaDJ5xnc8dc
+
 see the library page : https://pypi.org/project/facial-emotion-recognition/
+
 Pip install could work , but the library is not well supported on windows.
 
 I have altered and added many things from library itself so I can count the number of faces. which i mentioned inside the code.
