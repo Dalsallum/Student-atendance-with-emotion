@@ -21,7 +21,7 @@ er = EmotionRecognition(device='gpu', gpu_id=0)
 gpu_id=0 # this is used for faces counting
 device = torch.device(f'cuda:{str(gpu_id)}') # to use gpu if your device supports it, if not comment this line and change device below to 'cpu'
 cam = cv.VideoCapture(r'C:\Users\komsi\Desktop\Misk - GeStream\AI project - face detection\Data for emotion\Studenlecture04.mov') # video to be tested, in case of using Web cam the argument will be 0
-mtcnn = MTCNN(keep_all=True, device=device) # for face counting also, make device = 'cpu' and comment line number 22
+mtcnn = MTCNN(keep_all=True, device=device) # for face counting also, if your device not gpu supported make device = 'cpu' and comment line number 22
 font = cv.FONT_HERSHEY_SIMPLEX # font for the stuednts attendance
 total_students = 50 # default value that will be inputted by the user later
 
